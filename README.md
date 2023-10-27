@@ -36,7 +36,7 @@ This is a simple web application that provides information about different count
 
 1. The client of this application is located in the `client_country` directory.
 
-2. The client is built using React and Axios for making requests to the backend.
+2. The client is built using React.
 
 3. To deploy the client to Heroku, follow these steps:
 
@@ -50,6 +50,12 @@ This is a simple web application that provides information about different count
 
    - Commit your changes if you haven't already.
 
+   - Create a `Procfile` in the root of your `client_country` directory. The `Procfile` should contain the following line to start the client application:
+
+     ```
+     web: npm run start
+     ```
+
    - Run the following commands in your terminal:
 
      ```bash
@@ -59,6 +65,7 @@ This is a simple web application that provides information about different count
      ```
 
 4. Your client should now be deployed to Heroku. You can access it using the URL provided by Heroku.
+
 
 ## CORS Configuration
 
@@ -74,8 +81,3 @@ This application uses CORS (Cross-Origin Resource Sharing) to enable communicati
 
 4. You can explore information about different countries and make API requests to the backend as needed.
 
-## Additional Information
-
-For more information on how to use and develop this application, please refer to the documentation and source code in the respective directories (`backend_country` and `client_country`).
-
-If you have any questions or encounter issues, feel free to reach out to the developers.
