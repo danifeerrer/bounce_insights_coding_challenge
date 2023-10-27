@@ -42,12 +42,6 @@ This is a simple web application that provides information about different count
 
    - Make sure you have the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) installed.
 
-   - Inside the `client_country` directory, create a production build of the client by running:
-
-     ```bash
-     npm run build
-     ```
-
    - Commit your changes if you haven't already.
 
    - Create a `Procfile` in the root of your `client_country` directory. The `Procfile` should contain the following line to start the client application:
